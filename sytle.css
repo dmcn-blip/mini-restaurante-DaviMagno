@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body {
+    background-color: rgb(35, 33, 37);
+    color: #d0cfcf; 
+    font-family: 'Georgia', serif; 
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    background-color: rgb(61, 8, 71);
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+header a{
+    color:  #c7b08b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+    border: 2px solid #c7b08b;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color:#373636;
+}
+header a:hover{
+    color: #f0f0f0;
+    
+}
+.logo-corvo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.logo-redonda{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 2px solid #c7b08b ;
+}
+h1{
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    color: #c7b08b;
+    margin: 0
+    
+}
+h2{
+    margin-left: 20px;
+    color: #ede0cb
+
+}
+p{
+    max-width: 800px;
+    line-height: 1.6em;
+    margin-left: 20px;
+}
+h3{
+    margin-left: 20px;
+    color: #ede0cb
+}
+ul li{
+    color: #d0cfcf;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+ul li strong{
+    color: #c7b08b;
+    font-size: 1.2em;
+}
